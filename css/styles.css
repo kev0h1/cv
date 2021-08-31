@@ -67,6 +67,7 @@ hr {
 
 .footer-text {
   color: #eeeeee;
+  font-size: 0.75rem;
 }
 .inline-image {
   width: 10%;
@@ -75,8 +76,12 @@ hr {
 }
 
 .small-icon {
-  width: 1%;
+  width: 1.5%;
   height: auto;
+}
+
+.small-icon:hover {
+  background-color: #eeeeee;
 }
 
 .image-group {
