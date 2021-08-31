@@ -1,0 +1,152 @@
+.top-container {
+  background-color: #00adb5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.bottom-container {
+  background-color: #00adb5;
+  margin: 20px 0 0 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/* text align center will center everything that doesnt have a width set
+for those that have a width set, you will need to specify margin to be auto */
+
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+/* 16px = 100% = 1em */
+/* remember when using % and em, they will add on top of what is defined in the body
+rem was introduced to mitigate this problem so for font sizing always use rem*/
+h1 {
+  margin: 0;
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  color: #393e46;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: #00adb5;
+  line-height: 2em;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #00adb5;
+  font-size: 1.5em;
+}
+
+hr {
+  width: 5%;
+  border-top: 10px dotted #00adb5;
+  border-bottom: none;
+}
+
+.header-h2 {
+  color: #393e46;
+  font-weight: normal;
+}
+.skills-image {
+  /* border-radius: 100%; */
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+/* span is an inline display element */
+/* you cannot change the width of an inline element */
+.span {
+  text-decoration: underline;
+}
+
+.footer-text {
+  color: #eeeeee;
+}
+.inline-image {
+  width: 10%;
+  height: auto;
+  margin-top: 10px;
+}
+
+.small-icon {
+  width: 1%;
+  height: auto;
+}
+
+.image-group {
+  float: right;
+}
+
+.clear-example {
+  /* clear: right; */
+}
+
+.last-image {
+  margin-left: 30px;
+}
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.table {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.eng {
+  text-decoration: underline;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 20px auto 20px auto;
+  text-align: left;
+  line-height: 2em;
+}
+/* you can change properties of an element to be block or in line */
+/* display: inline-block used to change a block element to an inline one */
+
+.btn {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  color: #ffffff;
+  font-family: Brush Script MT;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 20px;
+  background-color: #222831;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 20px 0 #000000;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #eeeeee 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  background: #00adb5;
+  border: solid #eeeeee 1px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
